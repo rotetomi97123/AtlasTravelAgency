@@ -1,1 +1,174 @@
-{}
+{
+  "putovanje_za_sve": {
+    "nova_godina_2025": [
+      {
+        "title": "Budimpešta Nova godina",
+        "startingPrice": 200
+      },
+      {
+        "title": "Istanbul Nova godina",
+        "startingPrice": 170
+      },
+      {
+        "title": "Milano Nova godina",
+        "startingPrice": 180
+      },
+      {
+        "title": "Krakov Nova godina",
+        "startingPrice": 130
+      }
+    ],
+    "letovanje_2025": [
+      {
+        "title": "Malgat de mar",
+        "startingPrice": 435
+      },
+      {
+        "title": "Evia",
+        "startingPrice": 220
+      },
+      {
+        "title": "Kefalonija",
+        "startingPrice": 150
+      },
+      {
+        "title": "Sicilija leto + Rim i Venecija",
+        "startingPrice": 480
+      }
+    ],
+    "prolecna_putovanja": [
+      {
+        "title": "Pariz + Minhen i Salcburg",
+        "startingPrice": 249
+      }
+    ],
+    "skijanje": [
+      {
+        "title": "Kopaonik",
+        "startingPrice": 350
+      }
+    ]
+  },
+  "putovanje_za_mlade": {
+    "prvi_maj_putovanja": [
+      {
+        "title": "Krstaranje Mediteranom sa nocenjem u Rimu",
+        "startingPrice": 249
+      }
+    ],
+    "leto_za_mlade_2025": [
+      {
+        "title": "Budva leto za mlade",
+        "startingPrice": 160
+      },
+      {
+        "title": "Zakintos",
+        "startingPrice": 149
+      },
+      {
+        "title": "Kavos",
+        "startingPrice": 145
+      },
+      {
+        "title": "Kusadaši",
+        "startingPrice": 149
+      }
+    ],
+    "studentske_ekskurzije": [
+      {
+        "title": "Prag Jesen 2024",
+        "startingPrice": 129
+      }
+    ],
+    "Putovanje_zamlade": [
+      {
+        "title": "Prag Jesen 2024",
+        "startingPrice": 129
+      }
+    ]
+  },
+  "leto_2025": {
+    "Grčka_leto_2025": [
+      {
+        "title": "Budva leto za mlade",
+        "startingPrice": 160
+      },
+      {
+        "title": "Evia",
+        "startingPrice": 220
+      },
+      {
+        "title": "Kefalonija",
+        "startingPrice": 150
+      },
+      {
+        "title": "Zakintos",
+        "startingPrice": 149
+      },
+      {
+        "title": "Kavos",
+        "startingPrice": 145
+      }
+    ],
+    "Španija_letovanje": [
+      {
+        "title": "Malgat de mar Ljoret de Mar",
+        "startingPrice": 435
+      }
+    ],
+    "Turska_letovanje_2025": [
+      {
+        "title": "Kusadaši",
+        "startingPrice": 149
+      }
+    ],
+    "Italija_leto_2025": [
+      {
+        "title": "Sicilija leto + Rim i Venecija",
+        "startingPrice": 480
+      }
+    ]
+  },
+  "hoteli": {
+    "hoteli1": [
+      {
+        "title": "Krakov: Hotel Daisy 2*"
+      },
+      {
+        "title": "Krakov: Hotel Daisy 3*"
+      },
+      {
+        "title": "Krakov: Hotel Best Western Galicya 3++*"
+      },
+      {
+        "title": "Krakov: Hotel Krakow BB"
+      },
+      {
+        "title": "Hotel Tristar 3* | Prag"
+      },
+      {
+        "title": "Hotel Olšanka 4* | Prag"
+      }
+    ],
+    "hoteli2": [
+      {
+        "title": "Hotel Domina Milano Fiera 4*"
+      },
+      {
+        "title": "Milano: HOTEL DEVERO 4*"
+      },
+      {
+        "title": "Atina: Hotel Balasca 3* | Atina"
+      },
+      {
+        "title": "Beč: Hotel Oekotel Korneuburg 3*"
+      },
+      {
+        "title": "Beč: Hotel Foehrenhain 3*"
+      },
+      {
+        "title": "Hotel Ibis Styles Budapest Airport 3*"
+      }
+    ]
+  }
+}
