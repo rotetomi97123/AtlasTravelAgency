@@ -9,6 +9,7 @@
 
 body {
   background: #f4f6fb;
+  overflow: hidden;
 }
 
 .logo {
@@ -44,13 +45,24 @@ nav .nav-menu li {
   font-size: 14px;
   color: #2f2e5b;
   font-weight: 600;
-  padding: 8px 20px;
   border-radius: 8px;
-  cursor: pointer;
 }
 nav .nav-menu li span {
   font-size: 10px;
   font-weight: 400;
+}
+
+.nav_hover {
+  cursor: pointer;
+  padding: 8px 20px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  border-radius: 8px;
+}
+.nav_hover:hover {
+  background: rgb(241, 241, 241);
+  transition: 0.1s ease-in-out;
 }
 
 .nav-menu .nav-item:last-of-type {
@@ -120,13 +132,67 @@ nav .nav-menu li span {
   top: -15px;
   transform: translate(-50%, -50%);
 }
+.nav-menu .nav-item .dropdown_leto {
+  top: 200px;
+}
 .nav-menu .nav-item .dropdown_smaller {
-  top: 250px;
+  top: 210px;
   width: 550px;
   right: 0;
-  transform: translate(0, -50%);
+  transform: translate(9%, -50%);
+}
+.nav-menu .nav-item .dropdown_smaller .hotel1-class {
+  border-right: 1px dashed #2f2e5b;
+}
+.nav-menu .nav-item .dropdown_smaller .trip h3 {
+  max-width: unset;
 }
 .nav-menu .nav-item .dropdown_smaller p {
+  max-width: unset;
+}
+.nav-menu .nav-item .dropdown_contact {
+  top: 210px;
+  width: 450px;
+  right: 0;
+  transform: translate(32%, -50%);
+  gap: 40px;
+}
+.nav-menu .nav-item .dropdown_contact h2 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.nav-menu .nav-item .dropdown_contact strong {
+  font-weight: 600;
+}
+.nav-menu .nav-item .dropdown_contact .viber {
+  color: #864cb2;
+  font-size: 14px;
+  font-weight: 600;
+}
+.nav-menu .nav-item .dropdown_contact .whatsApp {
+  color: #3adc49;
+  font-size: 14px;
+  font-weight: 600;
+}
+.nav-menu .nav-item .dropdown_contact p {
+  margin: 16px 0;
+  padding: 16px 0;
+  border-top: 1px solid #2f2e5b;
+  border-bottom: 1px solid #2f2e5b;
+}
+.nav-menu .nav-item .dropdown_contact .contact_links {
+  display: flex;
+  flex-direction: column;
+}
+.nav-menu .nav-item .dropdown_contact .contact_links a {
+  text-decoration: none;
+  color: #2f2e5b;
+  padding: 0 0 16px 0;
+}
+.nav-menu .nav-item .dropdown_contact .trip h3 {
+  max-width: unset;
+}
+.nav-menu .nav-item .dropdown_contact p {
   max-width: unset;
 }
 .nav-menu .nav-item:hover .dropdown {
