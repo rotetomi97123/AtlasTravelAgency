@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "../css/style.css";
 import logo from "../assets/logo.svg";
 import data from "../data.json";
+import hamburger from "../assets/hamburger.svg";
+import close from "../assets/close.svg";
+import arrow from "../assets/arrow.svg";
+import arrow_down from "../assets/arrow_down.svg";
 
 const navbar = () => {
+  const [isMobile, setIsMobile] = useState(false);
+  const [toggleDropdown, setToggleDropdown] = useState("");
+
   return (
     <div className="container">
       <nav className="nav">
@@ -116,6 +123,89 @@ const navbar = () => {
             </ul>
           </li>
         </ul>
+        <div
+          className="hamburger_menu"
+          onClick={() => setIsMobile((prev) => !prev)}
+        >
+          {isMobile ? (
+            <img src={close} alt="menu" />
+          ) : (
+            <img src={hamburger} alt="menu" />
+          )}
+        </div>
+        {isMobile && (
+          <div className="mobile_nav_dropdown">
+            <div
+              className="mobile_nav_dropdown_wrapper"
+              onClick={() =>
+                setToggleDropdown((prev) => (prev === "first" ? "" : "first"))
+              }
+            >
+              <h3>Putovanja za sve generacije</h3>
+              {toggleDropdown === "first" ? (
+                <img src={arrow} alt="arrow" />
+              ) : (
+                <img src={arrow_down} alt="arrow" />
+              )}
+            </div>
+            {toggleDropdown === "first" && (
+              <div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Nostrum esse eius voluptatem, rem libero deserunt ducimus
+                  rerum omnis aperiam provident illo assumenda tempora quibusdam
+                  ipsa hic necessitatibus, error inventore. Laudantium?
+                </p>
+              </div>
+            )}
+            <div
+              className="mobile_nav_dropdown_wrapper"
+              onClick={() =>
+                setToggleDropdown((prev) => (prev === "second" ? "" : "second"))
+              }
+            >
+              <h3>Putovanja za mlade</h3>
+              {toggleDropdown === "second" ? (
+                <img src={arrow} alt="arrow" />
+              ) : (
+                <img src={arrow_down} alt="arrow" />
+              )}{" "}
+            </div>
+            {toggleDropdown === "second" && (
+              <div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Nostrum esse eius voluptatem, rem libero deserunt ducimus
+                  rerum omnis aperiam provident illo assumenda tempora quibusdam
+                  ipsa hic necessitatibus, error inventore. Laudantium?
+                </p>
+              </div>
+            )}
+            <div
+              className="mobile_nav_dropdown_wrapper"
+              onClick={() =>
+                setToggleDropdown((prev) => (prev === "third" ? "" : "third"))
+              }
+            >
+              <h3>Leto 2025</h3>
+              {toggleDropdown === "third" ? (
+                <img src={arrow} alt="arrow" />
+              ) : (
+                <img src={arrow_down} alt="arrow" />
+              )}{" "}
+            </div>
+            {toggleDropdown === "third" && (
+              <div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Nostrum esse eius voluptatem, rem libero deserunt ducimus
+                  rerum omnis aperiam provident illo assumenda tempora quibusdam
+                  ipsa hic necessitatibus, error inventore. Laudantium?
+                </p>
+              </div>
+            )}
+          </div>
+        )}
       </nav>
     </div>
   );

@@ -29,12 +29,18 @@ nav {
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  @media (max-width: 1200px) {
+    padding: 0 50px;
+  }
   .nav_dashed {
     border: 1px dashed $primary-color;
   }
   .nav-menu {
-    display: flex;
+    display: none;
     gap: 16px;
+    @media (min-width: 1200px) {
+      display: flex;
+    }
     li {
       list-style-type: none;
       display: flex;
@@ -206,6 +212,9 @@ nav {
     &:hover .dropdown {
       display: flex;
       animation: dropdownAnimation 0.3s ease-out forwards;
+      @media (max-width: 1200px) {
+        display: none;
+      }
     }
   }
 }
@@ -218,5 +227,43 @@ nav {
   100% {
     max-height: 300px; /* Adjust as needed */
     opacity: 1;
+  }
+}
+
+.hamburger_menu {
+  display: none;
+  @media (max-width: 1200px) {
+    display: block;
+  }
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.mobile_nav_dropdown {
+  position: absolute;
+  top: 88px;
+  width: calc(100% - 40px);
+  margin: 0 0 0 -20px;
+  display: block;
+  &_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    margin: 16px 0;
+    background: $gray-color;
+  }
+  img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  h3 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  @media (min-width: 1200px) {
+    display: none;
   }
 }
