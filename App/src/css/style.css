@@ -34,6 +34,11 @@ nav {
     padding: 0 50px;
   }
 }
+@media (max-width: 500px) {
+  nav {
+    padding: 0 30px;
+  }
+}
 nav .nav_dashed {
   border: 1px dashed #2f2e5b;
 }
@@ -208,6 +213,8 @@ nav .nav-menu li span {
 .nav-menu .nav-item:hover .dropdown {
   display: flex;
   animation: dropdownAnimation 0.3s ease-out forwards;
+  background: white;
+  z-index: 100;
 }
 @media (max-width: 1200px) {
   .nav-menu .nav-item:hover .dropdown {
@@ -241,9 +248,110 @@ nav .nav-menu li span {
 .mobile_nav_dropdown {
   position: absolute;
   top: 88px;
-  width: calc(100% - 40px);
-  margin: 0 0 0 -20px;
+  width: 100%;
+  height: 100%;
   display: block;
+  overflow-y: scroll;
+  height: 130vh;
+  background: white;
+  z-index: 100;
+  left: 0;
+}
+.mobile_nav_dropdown .mobile_nav_dropdown_padding {
+  padding: 0 20px;
+}
+.mobile_nav_dropdown_contact {
+  background: #2f2e5b;
+  color: white;
+}
+.mobile_nav_dropdown_contact_heading {
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.mobile_nav_dropdown_contact_content {
+  height: 110vh;
+  padding: 0 20px;
+}
+.mobile_nav_dropdown_contact_content .contact_links {
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0 0 0;
+}
+.mobile_nav_dropdown_contact_content .contact_links_wrapper {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 20px);
+  border-top: 1px solid white;
+  border-top: 1px solid white;
+}
+.mobile_nav_dropdown_contact_content .contact_links_wrapper img {
+  transform: rotate(90deg);
+  width: 20px;
+  height: 20px;
+}
+.mobile_nav_dropdown_contact_content .contact_links a {
+  color: white;
+  padding: 16px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+}
+.mobile_nav_dropdown_contact_content .viber {
+  color: #864cb2;
+  font-size: 14px;
+  font-weight: 600;
+}
+.mobile_nav_dropdown_contact_content .whatsApp {
+  color: #3adc49;
+  font-size: 14px;
+  font-weight: 600;
+}
+.mobile_nav_dropdown_contact_content p {
+  padding: 20px 0;
+}
+.mobile_nav_dropdown_category {
+  padding: 16px;
+}
+@media (max-width: 500px) {
+  .mobile_nav_dropdown_category {
+    width: 100%;
+    padding: 16px 0;
+  }
+}
+.mobile_nav_dropdown_content {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 500px) {
+  .mobile_nav_dropdown_content {
+    justify-content: center;
+  }
+}
+.mobile_nav_dropdown_content h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  background: #fcefb6;
+  font-weight: 600;
+  padding: 0 8px;
+}
+.mobile_nav_dropdown_content h5 {
+  font-weight: 400;
+  font-size: 14px;
+}
+.mobile_nav_dropdown_content li {
+  list-style-type: none;
+  font-size: 14px;
+  color: #2f2e5b;
+  font-weight: 600;
+  border-radius: 8px;
+  font-weight: 400;
+  padding: 4px;
+  margin: 8px 0 0 0;
+  cursor: pointer;
 }
 .mobile_nav_dropdown_wrapper {
   display: flex;
@@ -266,5 +374,103 @@ nav .nav-menu li span {
   .mobile_nav_dropdown {
     display: none;
   }
+}
+
+.swiper-slide {
+  overflow: hidden;
+  width: 260px !important;
+  margin-right: 16px;
+}
+
+.hero_wrapper {
+  margin: 50px auto;
+  max-width: 950px;
+  padding: 24px 0 32px 24px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1019607843);
+}
+.hero_wrapper .hero_slider {
+  margin: 32px 0;
+}
+.hero_wrapper .trip {
+  width: 260px;
+  height: 420px;
+  border-radius: 18px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.hero_wrapper .trip h4,
+.hero_wrapper .trip p {
+  font-size: 12px;
+}
+.hero_wrapper .trip h4 {
+  margin: 0 0 8px 0;
+  padding: 0 0 8px 0;
+  border-bottom: 1px solid white;
+}
+.hero_wrapper .trip_polasci {
+  position: absolute;
+  bottom: -20px;
+  right: -54px;
+  background: #dee5f8;
+  color: black;
+  z-index: 10;
+  width: 140px;
+  height: 76px;
+  transform: rotate(313deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0 32px 0;
+  flex-direction: column;
+}
+.hero_wrapper .trip_polasci img {
+  width: 15px;
+  height: 15px;
+}
+.hero_wrapper .trip_ad {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+  text-transform: uppercase;
+}
+.hero_wrapper .trip_ad_red {
+  background: #d32c30;
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 10px !important;
+}
+.hero_wrapper .trip_ad_blue {
+  background: #2f2e5b;
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 10px !important;
+}
+.hero_wrapper .trip_content_price {
+  display: flex;
+  gap: 8px;
+}
+.hero_wrapper .trip_content_price_popust {
+  text-decoration: line-through;
+}
+.hero_wrapper .trip_content_price_real {
+  color: #fcd210;
+}
+.hero_wrapper .trip_content_price p {
+  font-size: 18px;
+}
+.hero_wrapper .trip h3 {
+  font-weight: 600;
+  font-size: 18px;
 }
 /*# sourceMappingURL=style.css.map */

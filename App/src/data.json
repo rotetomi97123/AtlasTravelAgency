@@ -3,19 +3,40 @@
     "nova_godina_2025": [
       {
         "title": "Budimpešta Nova godina",
-        "startingPrice": 200
+        "startingPrice": 200,
+        "popust": 225,
+        "short_description": "Magičan doček uz vatromet, termalne kupke i kulturna blaga!",
+        "bannerImg": "https://i.ibb.co/nrtHdfv/nova-godina-budimpesta-900x600.png"
       },
       {
         "title": "Istanbul Nova godina",
-        "startingPrice": 170
+        "startingPrice": 170,
+        "popust": 225,
+
+        "short_description": "Dočekajte Novu godinu na raskršću kultura uz vatromet iznad Bosfora!",
+        "bannerImg": "https://i.ibb.co/vHy7DVX/nova-godina-istanbul-900x600.png"
       },
       {
         "title": "Milano Nova godina",
-        "startingPrice": 180
+        "startingPrice": 180,
+        "popust": 230,
+
+        "short_description": "Novogodišnja avantura u srcu italijanske mode.",
+        "bannerImg": "https://i.ibb.co/82c8w4L/nova-godina-milano-900x600.png"
+      },
+      {
+        "title": "Prag Nova godina",
+        "startingPrice": 200,
+        "popust": 230,
+        "short_description": "Doček Nove godine 2025. u Pragu autobusom / Termin: 29.12. - 03.01. / Cene od 200€ / Doručak u cen",
+        "bannerImg": "https://i.ibb.co/WBHg9pF/prag.png"
       },
       {
         "title": "Krakov Nova godina",
-        "startingPrice": 130
+        "startingPrice": 130,
+        "popust": 190,
+        "short_description": "Novogodišnja party destinacija broj 1.",
+        "bannerImg": "https://i.ibb.co/2n0wS4M/krakov.png"
       }
     ],
     "letovanje_2025": [
