@@ -384,10 +384,20 @@ nav .nav-menu li span {
 
 .hero_wrapper {
   margin: 50px auto;
-  max-width: 950px;
+  max-width: 1180px;
   padding: 24px 0 32px 24px;
   border-radius: 16px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1019607843);
+}
+.hero_wrapper h1 {
+  font-size: 18px;
+  color: #2f2e5b;
+  font-weight: 600;
+}
+.hero_wrapper h6 {
+  font-size: 14px;
+  color: #2f2e5b;
+  font-weight: 600;
 }
 .hero_wrapper .hero_slider {
   margin: 32px 0;
@@ -472,5 +482,19 @@ nav .nav-menu li span {
 .hero_wrapper .trip h3 {
   font-weight: 600;
   font-size: 18px;
+}
+
+.hero_catergories {
+  display: flex;
+  text-transform: uppercase;
+}
+.hero_catergories p {
+  margin: 32px 32px 0 16px;
+  cursor: pointer;
+}
+@media (max-width: 500px) {
+  .hero_catergories p {
+    margin: 16px 16px 0 8px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

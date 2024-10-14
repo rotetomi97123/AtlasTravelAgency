@@ -381,10 +381,20 @@ nav {
 }
 .hero_wrapper {
   margin: 50px auto;
-  max-width: 950px;
+  max-width: 1180px;
   padding: 24px 0 32px 24px;
   border-radius: 16px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1019607843);
+  h1 {
+    font-size: 18px;
+    color: $primary-color;
+    font-weight: 600;
+  }
+  h6 {
+    font-size: 14px;
+    color: $primary-color;
+    font-weight: 600;
+  }
   .hero_slider {
     margin: 32px 0;
   }
@@ -467,6 +477,17 @@ nav {
     h3 {
       font-weight: 600;
       font-size: 18px;
+    }
+  }
+}
+.hero_catergories {
+  display: flex;
+  text-transform: uppercase;
+  p {
+    margin: 32px 32px 0 16px;
+    cursor: pointer;
+    @media (max-width: 500px) {
+      margin: 16px 16px 0 8px;
     }
   }
 }

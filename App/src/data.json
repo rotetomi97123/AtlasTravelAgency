@@ -12,7 +12,6 @@
         "title": "Istanbul Nova godina",
         "startingPrice": 170,
         "popust": 225,
-
         "short_description": "Dočekajte Novu godinu na raskršću kultura uz vatromet iznad Bosfora!",
         "bannerImg": "https://i.ibb.co/vHy7DVX/nova-godina-istanbul-900x600.png"
       },
@@ -20,7 +19,6 @@
         "title": "Milano Nova godina",
         "startingPrice": 180,
         "popust": 230,
-
         "short_description": "Novogodišnja avantura u srcu italijanske mode.",
         "bannerImg": "https://i.ibb.co/82c8w4L/nova-godina-milano-900x600.png"
       },
@@ -42,19 +40,31 @@
     "letovanje_2025": [
       {
         "title": "Malgat de mar",
-        "startingPrice": 435
+        "startingPrice": 435,
+        "popust": 225,
+        "short_description": "",
+        "bannerImg": "https://i.ibb.co/0Kfbs9d/shutterstock-375494095.jpg"
       },
       {
         "title": "Evia",
-        "startingPrice": 220
+        "startingPrice": 220,
+        "popust": 225,
+        "short_description": "",
+        "bannerImg": "https://i.ibb.co/b2fMSYR/evia.jpg"
       },
       {
         "title": "Kefalonija",
-        "startingPrice": 150
+        "startingPrice": 150,
+        "popust": 225,
+        "short_description": "",
+        "bannerImg": "https://i.ibb.co/pymWjRY/kefalonija.jpg"
       },
       {
         "title": "Sicilija leto + Rim i Venecija",
-        "startingPrice": 480
+        "startingPrice": 480,
+        "popust": 550,
+        "short_description": "",
+        "bannerImg": "https://i.ibb.co/gvgxrgP/sicilija.jpg"
       }
     ],
     "prolecna_putovanja": [
@@ -66,7 +76,17 @@
     "skijanje": [
       {
         "title": "Kopaonik",
-        "startingPrice": 350
+        "startingPrice": 350,
+        "popust": 550,
+        "short_description": "",
+        "bannerImg": "https://i.ibb.co/Jv9q1b1/kopaonik-staze.jpg"
+      },
+      {
+        "title": "Jasná, Slovakia",
+        "startingPrice": 400,
+        "popust": 500,
+        "short_description": "",
+        "bannerImg": "https://i.ibb.co/xfpFG4K/kyle-smith-3k7-F7t-Qd-Pr-U-unsplash.jpg"
       }
     ]
   },
