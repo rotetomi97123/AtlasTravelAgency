@@ -1,13 +1,11 @@
 import React from "react";
-import Navbar from "./components/navbar";
-import Hero from "./components/hero";
+import Routing from "./components/routing";
 import "./css/style.css";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <Hero />
+      <Routing />
     </div>
   );
 };

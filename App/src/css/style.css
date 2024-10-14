@@ -497,4 +497,9 @@ nav .nav-menu li span {
     margin: 16px 16px 0 8px;
   }
 }
+
+.swiper-wrapper a {
+  text-decoration: none;
+  color: unset;
+}
 /*# sourceMappingURL=style.css.map */
