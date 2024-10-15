@@ -7,6 +7,7 @@ import close from "../assets/close3.svg";
 import arrow from "../assets/arrow.svg";
 import arrow_down from "../assets/arrow_down.svg";
 import arrow_right from "../assets/arrow_right.svg";
+import { Link } from "react-router-dom";
 
 const navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -15,7 +16,9 @@ const navbar = () => {
   return (
     <div className="container">
       <nav className="nav">
-        <img src={logo} alt="logo" className="logo" />
+        <Link to="/" className="logo_link">
+          <img src={logo} alt="logo" className="logo" />
+        </Link>
         <ul className="nav-menu">
           <li className="nav-item nav_dashed">
             <div className="nav_hover">
@@ -27,10 +30,12 @@ const navbar = () => {
                   <h2>{categoryKey.replaceAll("_", " ")}</h2>{" "}
                   <ul className="category_ul">
                     {data.putovanje_za_sve[categoryKey].map((trip, index) => (
-                      <li key={index} className="trip">
-                        <h3>{trip.title}</h3>
-                        <p>od {trip.startingPrice}€</p>
-                      </li>
+                      <Link to="/Trip" state={{ trip: { trip } }}>
+                        <li key={index} className="trip">
+                          <h3>{trip.title}</h3>
+                          <p>od {trip.startingPrice}€</p>
+                        </li>
+                      </Link>
                     ))}
                   </ul>
                 </div>
@@ -47,10 +52,12 @@ const navbar = () => {
                   <h2>{categoryKey.replaceAll("_", " ")}</h2>
                   <ul className="category_ul">
                     {data.putovanje_za_mlade[categoryKey].map((trip, index) => (
-                      <li key={index} className="trip">
-                        <h3>{trip.title}</h3>
-                        <p>od {trip.startingPrice}€</p>
-                      </li>
+                      <Link to="/Trip" state={{ trip: { trip } }}>
+                        <li key={index} className="trip">
+                          <h3>{trip.title}</h3>
+                          <p>od {trip.startingPrice}€</p>
+                        </li>
+                      </Link>
                     ))}
                   </ul>
                 </div>
@@ -65,10 +72,12 @@ const navbar = () => {
                   <h2>{categoryKey.replaceAll("_", " ")}</h2>
                   <ul className="category_ul">
                     {data.leto_2025[categoryKey].map((trip, index) => (
-                      <li key={index} className="trip">
-                        <h3>{trip.title}</h3>
-                        <p>od {trip.startingPrice}€</p>
-                      </li>
+                      <Link to="/Trip" state={{ trip: { trip } }}>
+                        <li key={index} className="trip">
+                          <h3>{trip.title}</h3>
+                          <p>od {trip.startingPrice}€</p>
+                        </li>
+                      </Link>
                     ))}
                   </ul>
                 </div>
@@ -161,10 +170,12 @@ const navbar = () => {
                       <ul className="">
                         {data.putovanje_za_sve[categoryKey].map(
                           (trip, index) => (
-                            <li key={index}>
-                              <h5>{trip.title}</h5>
-                              <p>od {trip.startingPrice}€</p>
-                            </li>
+                            <Link to="/Trip" state={{ trip: { trip } }}>
+                              <li key={index}>
+                                <h5>{trip.title}</h5>
+                                <p>od {trip.startingPrice}€</p>
+                              </li>
+                            </Link>
                           )
                         )}
                       </ul>
@@ -198,10 +209,12 @@ const navbar = () => {
                       <ul className="">
                         {data.putovanje_za_mlade[categoryKey].map(
                           (trip, index) => (
-                            <li key={index}>
-                              <h5>{trip.title}</h5>
-                              <p>od {trip.startingPrice}€</p>
-                            </li>
+                            <Link to="/Trip" state={{ trip: { trip } }}>
+                              <li key={index}>
+                                <h5>{trip.title}</h5>
+                                <p>od {trip.startingPrice}€</p>
+                              </li>
+                            </Link>
                           )
                         )}
                       </ul>
@@ -232,10 +245,12 @@ const navbar = () => {
                       <h2>{categoryKey.replaceAll("_", " ")}</h2>{" "}
                       <ul className="">
                         {data.leto_2025[categoryKey].map((trip, index) => (
-                          <li key={index}>
-                            <h5>{trip.title}</h5>
-                            <p>od {trip.startingPrice}€</p>
-                          </li>
+                          <Link to="/Trip" state={{ trip: { trip } }}>
+                            <li key={index}>
+                              <h5>{trip.title}</h5>
+                              <p>od {trip.startingPrice}€</p>
+                            </li>
+                          </Link>
                         ))}
                       </ul>
                     </div>
