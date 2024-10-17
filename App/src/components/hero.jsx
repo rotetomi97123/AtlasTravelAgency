@@ -23,7 +23,7 @@ const hero = () => {
 
   return (
     <div className="hero_wrapper">
-      <h1>Balkan Fun turistička agencija</h1>
+      <h1>Atlas turistička agencija</h1>
       <h6>Licencirani organizator, atraktivne destinacije, najbolje ponude!</h6>
       <div className="hero_catergories">
         <p

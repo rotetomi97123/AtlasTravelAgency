@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -21,11 +22,11 @@ body {
 }
 
 .app_container {
-  margin: 88px 0 0 0;
+  margin: 120px 0 0 0;
 }
 
 nav {
-  height: 88px;
+  height: 110px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,7 +34,7 @@ nav {
   margin: 0 auto;
   position: fixed;
   width: 100%;
-  top: 40px;
+  top: 55px;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 150;
@@ -56,7 +57,7 @@ nav::after {
   height: 88px;
 }
 nav .logo_link {
-  width: 250px;
+  width: 220px;
 }
 @media (max-width: 1200px) {
   nav {
@@ -123,7 +124,7 @@ nav .nav-menu li span {
   border: 1px dashed transparent;
 }
 .nav-menu .nav-item:last-of-type:hover {
-  border: 1px dashed #2f2e5b;
+  border: 1px dashed #ff8227;
   transition: 0.1s ease-in-out;
 }
 .nav-menu .nav-item .dropdown {
@@ -182,6 +183,9 @@ nav .nav-menu li span {
   left: 50%;
   top: -15px;
   transform: translate(-50%, -50%);
+}
+.nav-menu .nav-item .dropdown_large {
+  top: 220px;
 }
 .nav-menu .nav-item .dropdown_leto {
   top: 200px;
@@ -495,7 +499,7 @@ nav .nav-menu li span {
   text-transform: uppercase;
 }
 .hero_wrapper .trip_ad_red {
-  background: #d32c30;
+  background: #ff8227;
   padding: 4px 6px;
   border-radius: 4px;
   font-weight: 600;
@@ -516,7 +520,7 @@ nav .nav-menu li span {
   text-decoration: line-through;
 }
 .hero_wrapper .trip_content_price_real {
-  color: #fcd210;
+  color: #ff8227;
 }
 .hero_wrapper .trip_content_price p {
   font-size: 18px;
@@ -549,7 +553,7 @@ nav .nav-menu li span {
   max-width: 1200px;
   overflow-y: scroll;
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 60px 0;
   display: flex;
   gap: 20px;
 }
@@ -590,6 +594,153 @@ nav .nav-menu li span {
   .trip_wrapper img {
     width: 90%;
     margin: 0 auto;
+  }
+}
+
+.trip_header {
+  color: #2f2e5b;
+  font-size: 12px;
+}
+.trip_header span {
+  font-weight: 600;
+}
+
+.trip_boxes {
+  display: flex;
+  gap: 16px;
+  margin: 16px 0 0;
+  flex-wrap: wrap;
+}
+.trip_boxes p {
+  font-size: 13px;
+  padding: 10px 12px;
+  color: #2f2e5b;
+  background: white;
+  border-radius: 4px;
+  border: 1px dashed #2f2e5b;
+  font-weight: 600;
+}
+
+.trip_hotels_container {
+  overflow-x: scroll;
+}
+
+.trip_hotels_wrapper {
+  max-width: 1180px;
+  margin: 60px auto;
+  border-radius: 16px;
+  box-shadow: 0 0 13px 0 rgba(65, 63, 83, 0.2);
+  padding: 32px;
+}
+@media (max-width: 1200px) {
+  .trip_hotels_wrapper {
+    margin: 40px 20px;
+    padding: 12px;
+  }
+}
+.trip_hotels_header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(65, 63, 83, 0.2);
+  padding: 0 0 8px 0;
+  margin: 0 0 8px 0;
+}
+.trip_hotels_header h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+.trip_hotels_rooms_wrapper {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(65, 63, 83, 0.2);
+  margin: 16px 0;
+  border-radius: 8px;
+  align-items: center;
+}
+.trip_hotels_rooms_wrapper:first-of-type {
+  background: #fcefb6;
+}
+.trip_hotels_rooms_wrapper .usluge_price {
+  background: #fcefb6;
+  text-align: center;
+  font-size: 18px;
+  width: 30%;
+  height: 100%;
+  padding: 15px 12px;
+}
+.trip_hotels_rooms_wrapper .usluge_price::after {
+  display: none !important;
+  cursor: unset !important;
+}
+.trip_hotels_rooms_wrapper .usluge_price p {
+  font-weight: 600;
+  font-size: 18px;
+}
+.trip_hotels_rooms_wrapper .usluge {
+  background: #fcefb6;
+  text-align: center;
+  font-size: 18px;
+  width: 70%;
+  height: 100%;
+  padding: 15px 12px;
+}
+.trip_hotels_rooms_wrapper .usluge h4 {
+  font-size: 18px;
+}
+.trip_hotels_rooms_wrapper_text {
+  padding: 15px 12px;
+}
+.trip_hotels_rooms_wrapper_text h4 {
+  font-weight: 600;
+  color: #2f2e5b;
+  font-size: 16px;
+}
+.trip_hotels_rooms_wrapper_price {
+  padding: 8px 52px;
+  display: flex;
+  gap: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2f2e5b;
+  width: 20%;
+  border-left: 1px solid rgba(65, 63, 83, 0.2);
+  height: 79px;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.trip_hotels_rooms_wrapper_price::after {
+  content: "Reserviši";
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #2f2e5b;
+  color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+.trip_hotels_rooms_wrapper_price:hover::after {
+  display: flex;
+}
+@media (max-width: 900px) {
+  .trip_hotels_rooms_wrapper_price {
+    width: unset;
+    padding: 8px 10px;
+  }
+}
+.trip_hotels_rooms_wrapper_price span {
+  text-decoration: line-through;
+  font-weight: 200;
+}
+@media (max-width: 900px) {
+  .trip_hotels_rooms_wrapper_price span {
+    display: none;
   }
 }
 
@@ -660,7 +811,8 @@ nav .nav-menu li span {
   font-size: 18px;
 }
 .form_wrapper .form_button_first {
-  background: #fcd210;
+  background: #ff8227;
+  color: white;
 }
 .form_wrapper .form_button_second {
   background: #2f2e5b;
@@ -959,7 +1111,7 @@ nav .nav-menu li span {
   text-transform: uppercase;
 }
 .ponude_wrapper .ponude_content_img .trip_ad_red {
-  background: #d32c30;
+  background: #ff8227;
   padding: 4px 6px;
   border-radius: 4px;
   font-weight: 600;

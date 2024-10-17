@@ -7,7 +7,33 @@
         "popust": 225,
         "short_description": "Magičan doček uz vatromet, termalne kupke i kulturna blaga!",
         "bannerImg": "https://i.ibb.co/nrtHdfv/nova-godina-budimpesta-900x600.png",
-        "long_description": "Budimpešta Nova godina 2025. - dočekajte Novu godinu u glavnom gradu Mađarske i uživajte u spektakularnom vatrometu iznad Dunava, čuvenim termalnim kupalištima i bogatoj kulturnoj sceni. Balkan Fun vam nudi nezaboravno iskustvo u ovom magičnom gradu - pogledajte aranžmane i rezervišite svoje mesto na vreme!"
+        "long_description": "Budimpešta Nova godina 2025. - dočekajte Novu godinu u glavnom gradu Mađarske i uživajte u spektakularnom vatrometu iznad Dunava, čuvenim termalnim kupalištima i bogatoj kulturnoj sceni. Balkan Fun vam nudi nezaboravno iskustvo u ovom magičnom gradu - pogledajte aranžmane i rezervišite svoje mesto na vreme!",
+        "category": "Nova godina 2025",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       },
       {
         "title": "Istanbul Nova godina",
@@ -15,7 +41,33 @@
         "popust": 225,
         "short_description": "Dočekajte Novu godinu na raskršću kultura uz vatromet iznad Bosfora!",
         "bannerImg": "https://i.ibb.co/vHy7DVX/nova-godina-istanbul-900x600.png",
-        "long_description": "Istanbul Nova godina 2025 - Najbolji način da ispratite staru i dočekate novu godinu jeste novogodišnja noć u Istanbulu, gradu koji upravo spaja staro i novo, istok i zapad, orijent i Evropu. Uz neke od najpoznatijih svetskih znamenitosti, turske specijalitete, vatromet iznad Bosfora, i turističku agenciju Balkan Fun, doček Nove godine u Istanbulu ćete sigurno pamtiti, i prepričavati - pogledajte aranžmane i rezervišite na vreme!"
+        "long_description": "Istanbul Nova godina 2025 - Najbolji način da ispratite staru i dočekate novu godinu jeste novogodišnja noć u Istanbulu, gradu koji upravo spaja staro i novo, istok i zapad, orijent i Evropu. Uz neke od najpoznatijih svetskih znamenitosti, turske specijalitete, vatromet iznad Bosfora, i turističku agenciju Balkan Fun, doček Nove godine u Istanbulu ćete sigurno pamtiti, i prepričavati - pogledajte aranžmane i rezervišite na vreme!",
+        "category": "Nova godina 2025",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       },
       {
         "title": "Milano Nova godina",
@@ -23,7 +75,33 @@
         "popust": 230,
         "short_description": "Novogodišnja avantura u srcu italijanske mode.",
         "bannerImg": "https://i.ibb.co/82c8w4L/nova-godina-milano-900x600.png",
-        "long_description": "Milano Nova godina 2025 - Dočekajte Novu godinu u italijanskoj prestonici mode i fudbala! Putovanje u Milano za Novu godinu pruža mogućnost upoznavanja svih njegovih znamenitosti u prazničnom duhu, a Balkan Fun tim je odgovoran za najbolji novogodišnji provod koji ćete dugo pamtiti!"
+        "long_description": "Milano Nova godina 2025 - Dočekajte Novu godinu u italijanskoj prestonici mode i fudbala! Putovanje u Milano za Novu godinu pruža mogućnost upoznavanja svih njegovih znamenitosti u prazničnom duhu, a Balkan Fun tim je odgovoran za najbolji novogodišnji provod koji ćete dugo pamtiti!",
+        "category": "Nova godina 2025",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       },
       {
         "title": "Prag Nova godina",
@@ -31,7 +109,33 @@
         "popust": 230,
         "short_description": "Doček Nove godine 2025. u Pragu autobusom / Termin: 29.12. - 03.01. / Cene od 200€ / Doručak u cen",
         "bannerImg": "https://i.ibb.co/WBHg9pF/prag.png",
-        "long_description": "Prag Nova godina 2025 je #1 Izbor mladih koji najluđu noć žele da provedu u jednom od najlepših evropskih gradova. Turistička agencija Balkan Fun svake godine organizuje nezaboravno putovanje u Prag za Novu godinu, koje uz fantastične obilaske i žurke do sitnih sati zaista predstavlja najbolji način da doček Nove godine 2025. u Pragu još dugo prepričavate, a godinu koja sledi započnete nezaboravno!"
+        "long_description": "Prag Nova godina 2025 je #1 Izbor mladih koji najluđu noć žele da provedu u jednom od najlepših evropskih gradova. Turistička agencija Balkan Fun svake godine organizuje nezaboravno putovanje u Prag za Novu godinu, koje uz fantastične obilaske i žurke do sitnih sati zaista predstavlja najbolji način da doček Nove godine 2025. u Pragu još dugo prepričavate, a godinu koja sledi započnete nezaboravno!",
+        "category": "Nova godina 2025",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       },
       {
         "title": "Krakov Nova godina",
@@ -39,7 +143,33 @@
         "popust": 190,
         "short_description": "Novogodišnja party destinacija broj 1.",
         "bannerImg": "https://i.ibb.co/2n0wS4M/krakov.png",
-        "long_description": "Krakov Nova godina 2025 – Kao i svake godine do sada, najbolji izbor za doček! Uz odlične ponude aranžmana i nezaboravne žurke koje svojim putnicima svake godine pripremi turistička agencija Bakan Fun Krakov se prema mišljenju mnogih turista izdvojio kao omiljeno mesto za ispraćaj stare, i ulazak u novu godinu."
+        "long_description": "Krakov Nova godina 2025 – Kao i svake godine do sada, najbolji izbor za doček! Uz odlične ponude aranžmana i nezaboravne žurke koje svojim putnicima svake godine pripremi turistička agencija Bakan Fun Krakov se prema mišljenju mnogih turista izdvojio kao omiljeno mesto za ispraćaj stare, i ulazak u novu godinu.",
+        "category": "Nova godina 2025",
+        "hotels": [
+          {
+            "title": "Hotel Daisy 2*",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       },
       {
         "title": "Atina Nova godina 2025",
@@ -47,7 +177,33 @@
         "popust": 190,
         "short_description": "Doživi novogodišnju noć na tradicionalnoj grčkoj večeri.",
         "bannerImg": "https://i.ibb.co/VMKtGWz/nova-godina-atina-900x600.png",
-        "long_description": "Atina Nova godina 2025 – Kao i svake godine do sada, najbolji izbor za doček! Uz odlične ponude aranžmana i nezaboravne žurke koje svojim putnicima svake godine pripremi turistička agencija Bakan Fun Krakov se prema mišljenju mnogih turista izdvojio kao omiljeno mesto za ispraćaj stare, i ulazak u novu godinu."
+        "long_description": "Atina Nova godina 2025 – Kao i svake godine do sada, najbolji izbor za doček! Uz odlične ponude aranžmana i nezaboravne žurke koje svojim putnicima svake godine pripremi turistička agencija Bakan Fun Krakov se prema mišljenju mnogih turista izdvojio kao omiljeno mesto za ispraćaj stare, i ulazak u novu godinu.",
+        "category": "Nova godina 2025",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       }
     ],
     "letovanje_2025": [
@@ -57,7 +213,33 @@
         "popust": 225,
         "short_description": "",
         "bannerImg": "https://i.ibb.co/0Kfbs9d/shutterstock-375494095.jpg",
-        "long_description": "Malgrat de Mar Španija - savršena prilika da posetite čuvenu obalsku regiju Kosta Brava i jedno od njenih najpoznatijih letovališta. Idealan za one koji traže relaksaciju na prelepim peščanim plažama ili miran odmor, Malgrat de Mar je odličan izbor. Pogledajte dostupne aranžmane za letovanje u Malgrat de Maru."
+        "long_description": "Malgrat de Mar Španija - savršena prilika da posetite čuvenu obalsku regiju Kosta Brava i jedno od njenih najpoznatijih letovališta. Idealan za one koji traže relaksaciju na prelepim peščanim plažama ili miran odmor, Malgrat de Mar je odličan izbor. Pogledajte dostupne aranžmane za letovanje u Malgrat de Maru.",
+        "category": "Letovanje 2025",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       },
       {
         "title": "Evia",
@@ -65,7 +247,33 @@
         "popust": 225,
         "short_description": "",
         "bannerImg": "https://i.ibb.co/b2fMSYR/evia.jpg",
-        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "Letovanje 2025",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       },
       {
         "title": "Kefalonija",
@@ -73,7 +281,33 @@
         "popust": 225,
         "short_description": "",
         "bannerImg": "https://i.ibb.co/pymWjRY/kefalonija.jpg",
-        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "Letovanje 2025",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       },
       {
         "title": "Sicilija leto + Rim i Venecija",
@@ -81,7 +315,33 @@
         "popust": 550,
         "short_description": "",
         "bannerImg": "https://i.ibb.co/gvgxrgP/sicilija.jpg",
-        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "Letovanje 2025",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       }
     ],
     "prolecna_putovanja": [
@@ -91,7 +351,33 @@
         "popust": 550,
         "short_description": "",
         "bannerImg": "https://i.ibb.co/Jv9q1b1/kopaonik-staze.jpg",
-        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "Prolecna putovanja",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       }
     ],
     "skijanje": [
@@ -101,7 +387,33 @@
         "popust": 550,
         "short_description": "",
         "bannerImg": "https://i.ibb.co/Jv9q1b1/kopaonik-staze.jpg",
-        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "Skijanje",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       },
       {
         "title": "Jasná, Slovakia",
@@ -109,7 +421,33 @@
         "popust": 500,
         "short_description": "",
         "bannerImg": "https://i.ibb.co/xfpFG4K/kyle-smith-3k7-F7t-Qd-Pr-U-unsplash.jpg",
-        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "Skijanje",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -121,7 +459,33 @@
         "popust": 550,
         "short_description": "",
         "bannerImg": "https://i.ibb.co/Jv9q1b1/kopaonik-staze.jpg",
-        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "Prvi maj putovanja",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       }
     ],
     "leto_za_mlade_2025": [
@@ -131,7 +495,33 @@
         "popust": 550,
         "short_description": "",
         "bannerImg": "https://i.ibb.co/Jv9q1b1/kopaonik-staze.jpg",
-        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "Letovanje 2025",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       },
       {
         "title": "Zakintos",
@@ -139,7 +529,33 @@
         "popust": 550,
         "short_description": "",
         "bannerImg": "https://i.ibb.co/Jv9q1b1/kopaonik-staze.jpg",
-        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "Letovanje 2025",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       },
       {
         "title": "Kavos",
@@ -147,7 +563,33 @@
         "popust": 550,
         "short_description": "",
         "bannerImg": "https://i.ibb.co/Jv9q1b1/kopaonik-staze.jpg",
-        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "Letovanje 2025",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       },
       {
         "title": "Kusadaši",
@@ -155,7 +597,33 @@
         "popust": 550,
         "short_description": "",
         "bannerImg": "https://i.ibb.co/Jv9q1b1/kopaonik-staze.jpg",
-        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "Letovanje 2025",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       }
     ],
     "studentske_ekskurzije": [
@@ -165,7 +633,33 @@
         "popust": 550,
         "short_description": "",
         "bannerImg": "https://i.ibb.co/Jv9q1b1/kopaonik-staze.jpg",
-        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "Studentske ekskurzije",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       }
     ],
     "Putovanje_zamlade": [
@@ -175,7 +669,33 @@
         "popust": 550,
         "short_description": "",
         "bannerImg": "https://i.ibb.co/Jv9q1b1/kopaonik-staze.jpg",
-        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "Putovanje za mlade",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -187,7 +707,33 @@
         "popust": 550,
         "short_description": "",
         "bannerImg": "https://i.ibb.co/Jv9q1b1/kopaonik-staze.jpg",
-        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "Letovanje 2025",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       },
       {
         "title": "Evia",
@@ -195,7 +741,33 @@
         "popust": 550,
         "short_description": "",
         "bannerImg": "https://i.ibb.co/Jv9q1b1/kopaonik-staze.jpg",
-        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "Letovanje 2025",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       },
       {
         "title": "Kefalonija",
@@ -203,7 +775,33 @@
         "popust": 550,
         "short_description": "",
         "bannerImg": "https://i.ibb.co/Jv9q1b1/kopaonik-staze.jpg",
-        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "Letovanje 2025",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       },
       {
         "title": "Zakintos",
@@ -211,7 +809,33 @@
         "popust": 550,
         "short_description": "",
         "bannerImg": "https://i.ibb.co/Jv9q1b1/kopaonik-staze.jpg",
-        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "Letovanje 2025",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       },
       {
         "title": "Kavos",
@@ -219,7 +843,33 @@
         "popust": 550,
         "short_description": "",
         "bannerImg": "https://i.ibb.co/Jv9q1b1/kopaonik-staze.jpg",
-        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "long_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "Letovanje 2025",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       }
     ],
     "Španija_letovanje": [
@@ -229,7 +879,33 @@
         "popust": 225,
         "short_description": "",
         "bannerImg": "https://i.ibb.co/0Kfbs9d/shutterstock-375494095.jpg",
-        "long_description": "Malgrat de Mar Španija - savršena prilika da posetite čuvenu obalsku regiju Kosta Brava i jedno od njenih najpoznatijih letovališta. Idealan za one koji traže relaksaciju na prelepim peščanim plažama ili miran odmor, Malgrat de Mar je odličan izbor. Pogledajte dostupne aranžmane za letovanje u Malgrat de Maru."
+        "long_description": "Malgrat de Mar Španija - savršena prilika da posetite čuvenu obalsku regiju Kosta Brava i jedno od njenih najpoznatijih letovališta. Idealan za one koji traže relaksaciju na prelepim peščanim plažama ili miran odmor, Malgrat de Mar je odličan izbor. Pogledajte dostupne aranžmane za letovanje u Malgrat de Maru.",
+        "category": "Letovanje 2025",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       }
     ],
     "Turska_letovanje_2025": [
@@ -239,13 +915,65 @@
         "popust": 225,
         "short_description": "",
         "bannerImg": "https://i.ibb.co/0Kfbs9d/shutterstock-375494095.jpg",
-        "long_description": "Malgrat de Mar Španija - savršena prilika da posetite čuvenu obalsku regiju Kosta Brava i jedno od njenih najpoznatijih letovališta. Idealan za one koji traže relaksaciju na prelepim peščanim plažama ili miran odmor, Malgrat de Mar je odličan izbor. Pogledajte dostupne aranžmane za letovanje u Malgrat de Maru."
+        "long_description": "Malgrat de Mar Španija - savršena prilika da posetite čuvenu obalsku regiju Kosta Brava i jedno od njenih najpoznatijih letovališta. Idealan za one koji traže relaksaciju na prelepim peščanim plažama ili miran odmor, Malgrat de Mar je odličan izbor. Pogledajte dostupne aranžmane za letovanje u Malgrat de Maru.",
+        "category": "Letovanje 2025",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       }
     ],
     "Italija_leto_2025": [
       {
         "title": "Sicilija leto + Rim i Venecija",
-        "startingPrice": 480
+        "startingPrice": 480,
+        "category": "Letovanje 2025",
+        "hotels": [
+          {
+            "title": "Hotel Tristar 3* | Prag",
+            "sobe": [
+              {
+                "heading": "četvorokrevetna sa doručkom",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 175
+              },
+              {
+                "heading": "dvokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 150,
+                "popust": 200
+              },
+              {
+                "heading": "trokrevetna noćenje i doručak",
+                "text": "noćenje sa doručkom",
+                "price": 147,
+                "popust": 180
+              }
+            ]
+          }
+        ]
       }
     ]
   },

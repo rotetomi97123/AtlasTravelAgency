@@ -11,6 +11,7 @@ $background-color: #f4f6fb;
 $yellow-color: #fcefb6;
 $gray-color: rgb(241, 241, 241);
 $yellow-strong: #fcd210;
+$orange-color: #ff8227;
 
 body {
   background: $background-color;
@@ -23,10 +24,10 @@ body {
   position: relative;
 }
 .app_container {
-  margin: 88px 0 0 0;
+  margin: 120px 0 0 0;
 }
 nav {
-  height: 88px;
+  height: 110px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,7 +35,7 @@ nav {
   margin: 0 auto;
   position: fixed;
   width: 100%;
-  top: 40px;
+  top: 55px;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 150;
@@ -56,7 +57,7 @@ nav {
     height: 88px;
   }
   .logo_link {
-    width: 250px;
+    width: 220px;
   }
   @media (max-width: 1200px) {
     padding: 0 50px;
@@ -118,10 +119,11 @@ nav {
       transition: 0.1s ease-in-out;
       border: 1px dashed transparent;
       &:hover {
-        border: 1px dashed $primary-color;
+        border: 1px dashed $orange-color;
         transition: 0.1s ease-in-out;
       }
     }
+
     .dropdown {
       position: absolute;
       top: 190px;
@@ -180,6 +182,9 @@ nav {
         top: -15px;
         transform: translate(-50%, -50%);
       }
+    }
+    .dropdown_large {
+      top: 220px;
     }
     .dropdown_leto {
       top: 200px;
@@ -487,7 +492,7 @@ nav {
       z-index: 10;
       text-transform: uppercase;
       &_red {
-        background: #d32c30;
+        background: $orange-color;
         padding: 4px 6px;
         border-radius: 4px;
         font-weight: 600;
@@ -508,7 +513,7 @@ nav {
         text-decoration: line-through;
       }
       &_real {
-        color: $yellow-strong;
+        color: $orange-color;
       }
       p {
         font-size: 18px;
@@ -544,7 +549,7 @@ nav {
   max-width: 1200px;
   overflow-y: scroll;
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 60px 0;
   display: flex;
   gap: 20px;
   @media (max-width: 1200px) {
@@ -583,7 +588,148 @@ nav {
     }
   }
 }
+.trip_header {
+  color: $primary-color;
+  font-size: 12px;
+  span {
+    font-weight: 600;
+  }
+}
+.trip_boxes {
+  display: flex;
+  gap: 16px;
+  margin: 16px 0 0;
+  flex-wrap: wrap;
+  p {
+    font-size: 13px;
+    padding: 10px 12px;
+    color: $primary-color;
+    background: white;
+    border-radius: 4px;
+    border: 1px dashed $primary-color;
+    font-weight: 600;
+  }
+}
+.trip_hotels_container {
+  overflow-x: scroll;
+}
+.trip_hotels {
+  &_wrapper {
+    max-width: 1180px;
+    margin: 60px auto;
+    border-radius: 16px;
+    box-shadow: 0 0 13px 0 rgba(65, 63, 83, 0.2);
+    padding: 32px;
+    @media (max-width: 1200px) {
+      margin: 40px 20px;
+      padding: 12px;
+    }
+  }
+  &_header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(65, 63, 83, 0.2);
+    padding: 0 0 8px 0;
+    margin: 0 0 8px 0;
+    h1 {
+      font-size: 32px;
+      font-weight: 600;
+    }
+  }
+  &_rooms_wrapper {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(65, 63, 83, 0.2);
+    margin: 16px 0;
+    border-radius: 8px;
+    align-items: center;
+    &:first-of-type {
+      background: $yellow-color;
+    }
+    .usluge_price {
+      background: $yellow-color;
+      text-align: center;
+      font-size: 18px;
+      width: 30%;
+      height: 100%;
+      padding: 15px 12px;
+      &::after {
+        display: none !important;
+        cursor: unset !important;
+      }
+      p {
+        font-weight: 600;
+        font-size: 18px;
+      }
+    }
+    .usluge {
+      background: $yellow-color;
+      text-align: center;
+      font-size: 18px;
+      width: 70%;
+      height: 100%;
+      padding: 15px 12px;
+      h4 {
+        font-size: 18px;
+      }
+    }
 
+    &_text {
+      padding: 15px 12px;
+      h4 {
+        font-weight: 600;
+        color: $primary-color;
+        font-size: 16px;
+      }
+    }
+    &_price {
+      padding: 8px 52px;
+      display: flex;
+      gap: 16px;
+      font-size: 16px;
+      font-weight: 600;
+      color: $primary-color;
+      width: 20%;
+      border-left: 1px solid rgba(65, 63, 83, 0.2);
+      height: 79px;
+      align-items: center;
+      position: relative;
+      cursor: pointer;
+      &::after {
+        content: "Reserviši";
+        cursor: pointer;
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        background: $primary-color;
+        color: white;
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+        justify-content: center;
+        align-items: center;
+      }
+      &:hover {
+        &::after {
+          display: flex;
+        }
+      }
+      @media (max-width: 900px) {
+        width: unset;
+        padding: 8px 10px;
+      }
+      span {
+        text-decoration: line-through;
+        font-weight: 200;
+        @media (max-width: 900px) {
+          display: none;
+        }
+      }
+    }
+  }
+}
 // FORM STYLES
 
 .form_wrapper {
@@ -648,7 +794,8 @@ nav {
     }
   }
   .form_button_first {
-    background: $yellow-strong;
+    background: $orange-color;
+    color: white;
   }
   .form_button_second {
     background: $primary-color;
@@ -927,7 +1074,7 @@ nav {
         z-index: 10;
         text-transform: uppercase;
         &_red {
-          background: #d32c30;
+          background: $orange-color;
           padding: 4px 6px;
           border-radius: 4px;
           font-weight: 600;

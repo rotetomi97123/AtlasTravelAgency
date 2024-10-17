@@ -8,6 +8,7 @@ import arrow from "../assets/arrow.svg";
 import arrow_down from "../assets/arrow_down.svg";
 import arrow_right from "../assets/arrow_right.svg";
 import { Link } from "react-router-dom";
+import AtlasLogo from "../assets/atlas_logo2.png";
 
 const navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -17,14 +18,14 @@ const navbar = () => {
     <div className="container">
       <nav className="nav">
         <Link to="/" className="logo_link">
-          <img src={logo} alt="logo" className="logo" />
+          <img src={AtlasLogo} alt="logo" className="logo" />
         </Link>
         <ul className="nav-menu">
           <li className="nav-item nav_dashed">
             <div className="nav_hover">
               Putovanja <span>za sve generacije</span>
             </div>
-            <ul className="dropdown">
+            <ul className="dropdown dropdown_large">
               {Object.keys(data.putovanje_za_sve).map((categoryKey) => (
                 <div key={categoryKey} className="category">
                   <h2>{categoryKey.replaceAll("_", " ")}</h2>{" "}

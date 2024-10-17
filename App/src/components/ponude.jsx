@@ -38,7 +38,7 @@ const Ponude = () => {
       <div>
         <div className="ponude_title_container">
           <div className="ponude_title_wrapper">
-            <h1>Aktuelne Balkan Fun ponude</h1>
+            <h1>Aktuelne Atlas ponude</h1>
             <img src={ArrowRight} alt="arrowRight" />
           </div>
           <div className="ponude_title_buttons">
