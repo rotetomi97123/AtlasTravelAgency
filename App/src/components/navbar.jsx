@@ -31,7 +31,12 @@ const navbar = () => {
                   <h2>{categoryKey.replaceAll("_", " ")}</h2>{" "}
                   <ul className="category_ul">
                     {data.putovanje_za_sve[categoryKey].map((trip, index) => (
-                      <Link to="/Trip" state={{ trip: { trip } }}>
+                      <Link
+                        to={`/trip/${encodeURIComponent(trip.title)}`}
+                        key={trip.title}
+                        state={{ trip }}
+                      >
+                        {" "}
                         <li key={index} className="trip">
                           <h3>{trip.title}</h3>
                           <p>od {trip.startingPrice}€</p>
@@ -53,7 +58,12 @@ const navbar = () => {
                   <h2>{categoryKey.replaceAll("_", " ")}</h2>
                   <ul className="category_ul">
                     {data.putovanje_za_mlade[categoryKey].map((trip, index) => (
-                      <Link to="/Trip" state={{ trip: { trip } }}>
+                      <Link
+                        to={`/trip/${encodeURIComponent(trip.title)}`}
+                        key={trip.title}
+                        state={{ trip }}
+                      >
+                        {" "}
                         <li key={index} className="trip">
                           <h3>{trip.title}</h3>
                           <p>od {trip.startingPrice}€</p>
@@ -73,7 +83,12 @@ const navbar = () => {
                   <h2>{categoryKey.replaceAll("_", " ")}</h2>
                   <ul className="category_ul">
                     {data.leto_2025[categoryKey].map((trip, index) => (
-                      <Link to="/Trip" state={{ trip: { trip } }}>
+                      <Link
+                        to={`/trip/${encodeURIComponent(trip.title)}`}
+                        key={trip.title}
+                        state={{ trip }}
+                      >
+                        {" "}
                         <li key={index} className="trip">
                           <h3>{trip.title}</h3>
                           <p>od {trip.startingPrice}€</p>
@@ -127,9 +142,9 @@ const navbar = () => {
                 <strong>Balkanska 27, Beograd</strong>
               </div>
               <div className="contact_links">
-                <a href="/">O nama</a>
-                <a href="/">Kontakt</a>
-                <a href="/">Provera duga</a>
+                <Link to="/Onama">O nama</Link>
+                <Link to="/">Kontakt</Link>
+                <Link to="/">Provera duga</Link>
               </div>
             </ul>
           </li>
@@ -171,7 +186,12 @@ const navbar = () => {
                       <ul className="">
                         {data.putovanje_za_sve[categoryKey].map(
                           (trip, index) => (
-                            <Link to="/Trip" state={{ trip: { trip } }}>
+                            <Link
+                              to={`/trip/${encodeURIComponent(trip.title)}`}
+                              key={trip.title}
+                              state={{ trip }}
+                            >
+                              {" "}
                               <li key={index}>
                                 <h5>{trip.title}</h5>
                                 <p>od {trip.startingPrice}€</p>
@@ -210,7 +230,12 @@ const navbar = () => {
                       <ul className="">
                         {data.putovanje_za_mlade[categoryKey].map(
                           (trip, index) => (
-                            <Link to="/Trip" state={{ trip: { trip } }}>
+                            <Link
+                              to={`/trip/${encodeURIComponent(trip.title)}`}
+                              key={trip.title}
+                              state={{ trip }}
+                            >
+                              {" "}
                               <li key={index}>
                                 <h5>{trip.title}</h5>
                                 <p>od {trip.startingPrice}€</p>
@@ -246,7 +271,12 @@ const navbar = () => {
                       <h2>{categoryKey.replaceAll("_", " ")}</h2>{" "}
                       <ul className="">
                         {data.leto_2025[categoryKey].map((trip, index) => (
-                          <Link to="/Trip" state={{ trip: { trip } }}>
+                          <Link
+                            to={`/trip/${encodeURIComponent(trip.title)}`}
+                            key={trip.title}
+                            state={{ trip }}
+                          >
+                            {" "}
                             <li key={index}>
                               <h5>{trip.title}</h5>
                               <p>od {trip.startingPrice}€</p>
@@ -277,15 +307,15 @@ const navbar = () => {
                 </div>
                 <div className="contact_links">
                   <div className="contact_links_wrapper">
-                    <a href="/">O nama</a>
+                    <Link to="/Onama">O nama</Link>
                     <img src={arrow_right} alt="arrow" />
                   </div>
                   <div className="contact_links_wrapper">
-                    <a href="/">Kontakt</a>
+                    Kontakt
                     <img src={arrow_right} alt="arrow" />
                   </div>
                   <div className="contact_links_wrapper">
-                    <a href="/">Provera duga</a>
+                    Provera duga
                     <img src={arrow_right} alt="arrow" />
                   </div>
                 </div>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import data from "../data.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -6,8 +6,29 @@ import arrow_down from "../assets/arrow_down.svg";
 import { Link } from "react-router-dom";
 
 const hero = () => {
+  const [isActive, setIsActive] = useState("nova_godina_2025");
+
+  const [slidesPerView, setSlidesPerView] = useState(3.4);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 768) {
+        setSlidesPerView(1);
+      } else {
+        setSlidesPerView(3.4);
+      }
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   const params = {
-    slidesPerView: 3.4,
+    slidesPerView: slidesPerView,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -18,9 +39,6 @@ const hero = () => {
     },
     loop: false, // Disable looping
   };
-
-  const [isActive, setIsActive] = useState("nova_godina_2025");
-
   return (
     <div className="hero_wrapper">
       <h1>Atlas turistička agencija</h1>
@@ -60,7 +78,11 @@ const hero = () => {
           <ul className="category_ul">
             {data.putovanje_za_sve[isActive].map((trip, index) => (
               <SwiperSlide key={`${trip}-${index}`} className="trip">
-                <Link to="/Trip" state={{ trip: { trip } }}>
+                <Link
+                  to={`/trip/${encodeURIComponent(trip.title)}`}
+                  key={trip.title}
+                  state={{ trip }}
+                >
                   <div
                     className="trip"
                     style={{

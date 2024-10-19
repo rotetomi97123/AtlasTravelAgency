@@ -12,6 +12,7 @@ $yellow-color: #fcefb6;
 $gray-color: rgb(241, 241, 241);
 $yellow-strong: #fcd210;
 $orange-color: #ff8227;
+$container: 1180px;
 
 body {
   background: $background-color;
@@ -422,7 +423,7 @@ nav {
 }
 .hero_wrapper {
   margin: 50px auto;
-  max-width: 1180px;
+  max-width: $container;
   padding: 24px 0 32px 24px;
   border-radius: 16px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1019607843);
@@ -615,7 +616,7 @@ nav {
 }
 .trip_hotels {
   &_wrapper {
-    max-width: 1180px;
+    max-width: $container;
     margin: 60px auto;
     border-radius: 16px;
     box-shadow: 0 0 13px 0 rgba(65, 63, 83, 0.2);
@@ -698,7 +699,6 @@ nav {
       &::after {
         content: "Reserviši";
         cursor: pointer;
-        display: none;
         position: absolute;
         top: 0;
         left: 0;
@@ -708,14 +708,21 @@ nav {
         width: 100%;
         height: 100%;
         border-radius: 4px;
+        display: flex; // Use flex to center content
         justify-content: center;
         align-items: center;
+        opacity: 0; // Start with opacity 0
+        visibility: hidden; // Make it hidden initially
+        transition: opacity 0.3s ease, visibility 0.3s ease; // Transition for opacity and visibility
       }
+
       &:hover {
         &::after {
-          display: flex;
+          opacity: 1; // Change opacity to 1 on hover
+          visibility: visible; // Make it visible on hover
         }
       }
+
       @media (max-width: 900px) {
         width: unset;
         padding: 8px 10px;
@@ -733,7 +740,7 @@ nav {
 // FORM STYLES
 
 .form_wrapper {
-  max-width: 1180px;
+  max-width: $container;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -806,7 +813,7 @@ nav {
 // GARANCIJA STYLES
 
 .garancija_wrapper {
-  max-width: 1180px;
+  max-width: $container;
   display: flex;
   margin: 0 auto;
   padding: 80px 20px;
@@ -902,7 +909,7 @@ nav {
 // AKCIJA STYLES
 
 .akcija_wrapper {
-  max-width: 1180px;
+  max-width: $container;
   margin: 0 auto;
   &_content {
     background: linear-gradient(180deg, #2e2d5b 0%, #081a2f 100%),
@@ -954,7 +961,7 @@ nav {
 // DOCEK STYLES
 
 .docek_wrapper {
-  max-width: 1180px;
+  max-width: $container;
   margin: 0 auto;
   display: flex;
   gap: 32px;
@@ -1005,7 +1012,7 @@ nav {
 // PONUDE STYLES
 
 .ponude_wrapper {
-  max-width: 1180px;
+  max-width: $container;
   margin: 50px auto;
   @media (max-width: 1200px) {
     padding: 0 20px;
@@ -1178,4 +1185,94 @@ nav {
 .time-label {
   font-size: 12px; /* Smaller label for units */
   color: #777; /* Dim color for labels */
+}
+
+// KALENDAR STYLES
+
+.kalendar {
+  &_wrapper {
+    max-width: calc($container - 50px);
+    margin: 50px auto;
+    &_title {
+      @media (max-width: 1024px) {
+        font-size: 24px;
+      }
+    }
+    @media (max-width: 1024px) {
+      padding: 0 20px;
+    }
+  }
+  &_table_container {
+    overflow-x: auto;
+  }
+  &_table {
+    min-width: 800px;
+    width: 100%;
+    font-size: 16px;
+    a {
+      color: black;
+      text-decoration: none;
+      width: 100%;
+    }
+    tr {
+      &:not(:last-child) {
+        td {
+          border-bottom: 1px solid rgb(164, 164, 164);
+        }
+      }
+    }
+    td {
+      padding: 16px;
+      cursor: pointer;
+      &:last-child {
+        p {
+          position: relative;
+          &::after {
+            content: "Pogledaj Ponudu >";
+            cursor: pointer;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            background: white;
+            color: $primary-color;
+            width: 200px;
+            height: 100%;
+            border-radius: 4px;
+            justify-content: flex-start;
+            align-items: center;
+            font-weight: 600;
+            font-size: 18px;
+            opacity: 0; // Start with opacity 0
+            visibility: hidden; // Make it hidden initially
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+            @media (max-width: 1024px) {
+              opacity: 1;
+            }
+          }
+
+          &:hover {
+            &::after {
+              opacity: 1; // Change opacity to 1 on hover
+              visibility: visible; // Make it visible on hover
+            }
+          }
+        }
+      }
+    }
+
+    &_category {
+      p {
+        padding: 6px 6px;
+        border-radius: 16px;
+        background: $orange-color;
+        color: white;
+        text-align: center;
+      }
+    }
+    &_h1 {
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
 }

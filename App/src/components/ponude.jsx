@@ -89,7 +89,11 @@ const Ponude = () => {
               className="ponude_content"
               style={{ position: "relative" }}
             >
-              <Link to="/Trip" state={{ trip: { trip } }}>
+              <Link
+                to={`/trip/${encodeURIComponent(trip.title)}`}
+                key={trip.title}
+                state={{ trip }}
+              >
                 <div
                   className="trip"
                   style={{

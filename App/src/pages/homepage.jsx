@@ -7,6 +7,7 @@ import Footer from "../components/footer";
 import Akcija from "../components/akcija";
 import Docek from "../components/docek";
 import Ponude from "../components/ponude";
+import Kalendar from "../components/kalendar";
 
 const homepage = () => {
   return (
@@ -16,6 +17,7 @@ const homepage = () => {
       <Akcija />
       <Docek />
       <Ponude />
+      <Kalendar />
       <Form />
       <Garancija />
       <Footer />
