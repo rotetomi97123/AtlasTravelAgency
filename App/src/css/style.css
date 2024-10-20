@@ -212,6 +212,10 @@ nav .nav-menu li span {
   transform: translate(32%, -50%);
   gap: 40px;
 }
+.nav-menu .nav-item .dropdown_contact a:hover {
+  text-decoration: underline;
+  transition: 0.1s ease-in-out;
+}
 .nav-menu .nav-item .dropdown_contact h2 {
   font-size: 14px;
   font-weight: 600;
@@ -738,6 +742,11 @@ nav .nav-menu li span {
     padding: 8px 10px;
   }
 }
+@media (max-width: 500px) {
+  .trip_hotels_rooms_wrapper_price {
+    width: 40%;
+  }
+}
 .trip_hotels_rooms_wrapper_price span {
   text-decoration: line-through;
   font-weight: 200;
@@ -876,6 +885,14 @@ nav .nav-menu li span {
   background: #2f2e5b;
   color: white;
   font-size: 16px;
+}
+.footer_container a {
+  text-decoration: none;
+  color: white;
+}
+.footer_container a:hover {
+  text-decoration: underline;
+  transition: 0.1s ease-in-out;
 }
 @media (max-width: 1200px) {
   .footer_container {
@@ -1254,6 +1271,11 @@ nav .nav-menu li span {
   padding: 16px;
   cursor: pointer;
 }
+@media (max-width: 1024px) {
+  .kalendar_table td {
+    padding: 8px;
+  }
+}
 .kalendar_table td:last-child p {
   position: relative;
 }
@@ -1296,5 +1318,130 @@ nav .nav-menu li span {
 .kalendar_table_h1 {
   font-size: 18px;
   font-weight: 600;
+}
+
+.onama_container {
+  max-width: 1180px;
+  margin: 150px auto;
+  padding: 0 20px;
+}
+@media (max-width: 1024px) {
+  .onama_container {
+    margin: 150px auto 40px auto;
+  }
+}
+
+.onama_wrapper {
+  display: flex;
+  gap: 50px;
+}
+@media (max-width: 1024px) {
+  .onama_wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 1024px) {
+  .onama_wrapper video {
+    width: 95%;
+  }
+}
+.onama_wrapper h1 {
+  font-size: 40px;
+  color: #2f2e5b;
+  font-weight: 600;
+}
+.onama_wrapper p {
+  font-size: 18px;
+  color: #2f2e5b;
+}
+.onama_wrapper span {
+  font-weight: 600;
+}
+
+.Onama_turizam {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  margin: 100px 0 0 0;
+}
+@media (max-width: 1024px) {
+  .Onama_turizam {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.Onama_turizam_div1 {
+  width: 60%;
+  font-size: 18px;
+}
+@media (max-width: 1024px) {
+  .Onama_turizam_div1 {
+    width: 100%;
+  }
+}
+.Onama_turizam_div1 h1 {
+  font-size: 32px;
+  margin: 0 0 16px 0;
+}
+.Onama_turizam_div1 p {
+  margin: 0 0 20px 0;
+}
+.Onama_turizam_div1 p span {
+  font-weight: 600;
+}
+.Onama_turizam_div1 h3 {
+  padding: 40px;
+  font-size: 18px;
+  margin: 16px 0;
+  background: rgb(241, 241, 241);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+@media (max-width: 1024px) {
+  .Onama_turizam_div1 h3 {
+    padding: 20px;
+  }
+}
+.Onama_turizam_div1 h3 span {
+  font-weight: 600;
+}
+.Onama_turizam_div2 {
+  width: 40%;
+}
+@media (max-width: 1024px) {
+  .Onama_turizam_div2 {
+    width: 100%;
+  }
+}
+.Onama_turizam_div2 div {
+  border-left: 1px dotted #98a8d0;
+  padding: 0 0 25px 25px;
+  position: relative;
+}
+.Onama_turizam_div2 div::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #ff8227;
+  position: absolute;
+  left: -10px;
+  top: 0;
+  border-radius: 50%;
+}
+.Onama_turizam_div2 h2 {
+  font-size: 24px;
+  padding: 0 0 25px 25px;
+  font-weight: 600;
+}
+.Onama_turizam_div2 p {
+  font-size: 18px;
+  padding: 0 0 15px 25px;
+  font-weight: 300;
 }
 /*# sourceMappingURL=style.css.map */

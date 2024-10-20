@@ -3,13 +3,14 @@ import facebook from "../assets/facebook.svg";
 import instagram from "../assets/instagram.svg";
 import tiktok from "../assets/tiktok.svg";
 import yt from "../assets/yt.svg";
+import { Link } from "react-router-dom";
 
 const footer = () => {
   return (
     <div className="footer_container">
       <div className="footer_wrapper">
         <p>
-          Poslovno ime:<span> FG Travel Group</span>
+          Poslovno ime:<span> Atlas Travel Group</span>
         </p>
         <p>
           PIB: <span>999999</span>{" "}
@@ -37,10 +38,10 @@ const footer = () => {
       <div className="footer_wrapper">
         <div className="footer_wrapper_last">
           <div>
-            <h2>FG Travel Group</h2>
-            <p>Prince Hall Palace</p>
-            <p>Prince Rooftop Hotel</p>
-            <p>Travel Master</p>
+            <h2>Atlas Travel Group</h2>
+            <p>Vulkan Demo</p>
+            <p>Baldurs gate 3 demo</p>
+            <p>Gusto restaurantr</p>
           </div>
           <div>
             <div className="footer_wrapper_icons">
@@ -49,14 +50,18 @@ const footer = () => {
               <img src={tiktok} alt="logo" />
               <img src={yt} alt="logo" />
             </div>
-            <p>O nama</p>
-            <p>Kontakt</p>
+            <Link to="/Onama">
+              <p>O nama</p>
+            </Link>
+            <Link to="/Kontakt">
+              <p>Kontakt</p>
+            </Link>
           </div>
         </div>
         <div className="footer_description">
           Razvoj i dizajn: TothDev <br></br> © 2009 - 2024 / sva prava zadrzana
-          © FG Travel Group <br></br> Cene su informativnog karaktera i menjaju
-          se na dnevnom nivou.
+          © Atlas Travel Group <br></br> Cene su informativnog karaktera i
+          menjaju se na dnevnom nivou.
         </div>
       </div>
     </div>
