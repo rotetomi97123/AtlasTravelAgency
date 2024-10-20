@@ -41,7 +41,7 @@ const footer = () => {
             <h2>Atlas Travel Group</h2>
             <p>Vulkan Demo</p>
             <p>Baldurs gate 3 demo</p>
-            <p>Gusto restaurantr</p>
+            <p>Gusto restaurant</p>
           </div>
           <div>
             <div className="footer_wrapper_icons">

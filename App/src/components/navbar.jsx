@@ -143,7 +143,7 @@ const navbar = () => {
               </div>
               <div className="contact_links">
                 <Link to="/Onama">O nama</Link>
-                <Link to="/">Kontakt</Link>
+                <Link to="/Kontakt">Kontakt</Link>
                 <Link to="/">Provera duga</Link>
               </div>
             </ul>
@@ -311,7 +311,8 @@ const navbar = () => {
                     <img src={arrow_right} alt="arrow" />
                   </div>
                   <div className="contact_links_wrapper">
-                    Kontakt
+                    <Link to="/Kontakt">Kontakt</Link>
+
                     <img src={arrow_right} alt="arrow" />
                   </div>
                   <div className="contact_links_wrapper">

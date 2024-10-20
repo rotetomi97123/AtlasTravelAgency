@@ -1444,4 +1444,108 @@ nav .nav-menu li span {
   padding: 0 0 15px 25px;
   font-weight: 300;
 }
+
+.kontakt_wrapper {
+  max-width: 1180px;
+  margin: 150px auto 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+@media (max-width: 1024px) {
+  .kontakt_wrapper {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+}
+
+.kontakt_div1 {
+  max-width: 320px;
+}
+.kontakt_div1 h1 {
+  margin: 0 0 20px 0;
+  font-size: 40px;
+  font-weight: 600;
+  color: #2f2e5b;
+}
+.kontakt_div1 div {
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+}
+.kontakt_div1 div:not(:last-child) {
+  border-bottom: 3px dotted #2f2e5b;
+}
+.kontakt_div1 div h2 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.kontakt_div2 {
+  padding: 48px 48px 56px;
+  border-radius: 16px;
+  margin: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1019607843);
+  background: white;
+}
+@media (max-width: 1024px) {
+  .kontakt_div2 {
+    padding: 20px 20px 20px;
+  }
+}
+.kontakt_div2 h1 {
+  font-size: 32px;
+  margin: 0 0 8px 0;
+  font-weight: 600;
+}
+.kontakt_div2 p {
+  font-size: 16px;
+  margin: 0 0 24px;
+}
+.kontakt_div2 input,
+.kontakt_div2 select {
+  padding: 21px 20px;
+  border-radius: 8px;
+  border: 1px solid rgb(129, 129, 129);
+  margin: 18px 18px 0 0;
+  width: calc(50% - 18px);
+  font-size: 18px;
+}
+.kontakt_div2 textarea {
+  padding: 21px 20px;
+  border-radius: 8px;
+  border: 1px solid rgb(129, 129, 129);
+  margin: 18px 18px 0 0;
+  width: calc(100% - 18px);
+  max-width: 450px;
+  height: 160px;
+}
+.kontakt_div2 button {
+  width: 160px;
+  background: #ff8227;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  height: 60px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.kontakt_div2 .kontakt_checkbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 0;
+}
+.kontakt_div2 .kontakt_checkbox p {
+  margin: 0;
+}
+.kontakt_div2 .kontakt_checkbox input {
+  padding: 0;
+  width: unset;
+  margin: 0;
+}
 /*# sourceMappingURL=style.css.map */
