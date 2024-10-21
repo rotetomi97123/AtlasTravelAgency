@@ -757,6 +757,93 @@ nav .nav-menu li span {
   }
 }
 
+.trip_hotels_reserve_bg {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.trip_hotels_reserve {
+  width: 70%;
+  height: 550px;
+  background: white;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1100;
+  padding: 64px;
+  position: relative;
+}
+@media (max-width: 1024px) {
+  .trip_hotels_reserve {
+    width: 95%;
+    padding: 20px;
+    height: 95vh;
+  }
+}
+.trip_hotels_reserve h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+}
+@media (max-width: 1024px) {
+  .trip_hotels_reserve h1 {
+    font-size: 20px;
+  }
+}
+.trip_hotels_reserve input {
+  padding: 22px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid rgb(125, 125, 125);
+  margin: 0 16px 16px 0;
+  width: calc(50% - 16px);
+}
+@media (max-width: 1024px) {
+  .trip_hotels_reserve input {
+    width: 90%;
+    padding: 11px 10px;
+  }
+}
+.trip_hotels_reserve_shortedInput {
+  width: calc(33% - 16px) !important;
+}
+@media (max-width: 1024px) {
+  .trip_hotels_reserve_shortedInput {
+    width: 90% !important;
+  }
+}
+.trip_hotels_reserve_btn {
+  width: 280px;
+  height: 60px;
+  border-radius: 8px;
+  background: #ff8227;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.trip_hotels_reserve_close {
+  position: absolute;
+  top: 16px;
+  right: 32px;
+  border: none;
+  background: none;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
 .form_wrapper {
   max-width: 1180px;
   display: flex;

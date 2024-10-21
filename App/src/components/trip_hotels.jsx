@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 const trip_hotels = ({ trip }) => {
+  const [isShow, setIsShow] = useState(false);
+
   return (
     <div className="trip_hotels_wrapper">
       <div className="trip_hotels_header">
@@ -23,7 +25,10 @@ const trip_hotels = ({ trip }) => {
               <h4>{item.heading}</h4>
               <p>{item.text}</p>
             </div>
-            <div className="trip_hotels_rooms_wrapper_price">
+            <div
+              onClick={() => setIsShow(true)}
+              className="trip_hotels_rooms_wrapper_price"
+            >
               <p>
                 <span>{item.popust} €</span>
               </p>
@@ -32,6 +37,50 @@ const trip_hotels = ({ trip }) => {
           </div>
         ))}
       </div>
+      {isShow && (
+        <div className="trip_hotels_reserve_bg">
+          <div className="trip_hotels_reserve">
+            <button
+              onClick={() => setIsShow(false)}
+              className="trip_hotels_reserve_close"
+            >
+              X
+            </button>
+            <h1>Pošaljite UPIT za putovanje - {trip.title}</h1>
+            <div>
+              <input type="text" placeholder="Ime i prezime*" required />
+              <input type="text" placeholder="Kontakt telefon*" required />
+            </div>
+            <div>
+              <input type="email" placeholder="Kontakt email*" required />
+              <input type="text" value={trip.hotels[0].title} readOnly />
+            </div>
+            <div>
+              <input
+                type="text"
+                value={trip.hotels[0].sobe[0].heading}
+                className="trip_hotels_reserve_shortedInput"
+                readOnly
+              />
+              <input
+                type="text"
+                value="29.12. - 03.01."
+                readOnly
+                className="trip_hotels_reserve_shortedInput"
+              />
+              <input
+                type="text"
+                value={`${trip.hotels[0].sobe[0].price} €`}
+                className="trip_hotels_reserve_shortedInput"
+                readOnly
+              />
+            </div>
+            <button className="trip_hotels_reserve_btn">
+              Pošaljite upit za putovanje
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
